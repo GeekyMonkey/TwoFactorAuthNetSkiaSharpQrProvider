@@ -6,7 +6,7 @@
 
 ## :question: Purpose
 
-A QR Code provider for TwoFactorAuth.Net that has no external API dependency. The image is generated on your own server. Also no dependency on System.Drawing to avoid installation issues with Linux.
+A QR Code provider for [TwoFactorAuth.Net](https://github.com/RobThree/TwoFactorAuth.Net) that has no external API dependency. The image is generated on your own server. Also no dependency on System.Drawing to avoid installation issues with Linux.
 
 ---
 ## :point_down: Download
@@ -20,7 +20,7 @@ The project is published to [NuGet](https://www.nuget.org/packages/GeekyMonkey.T
 * NET Core
 
 ### Dependencies
-* TwoFactorAuth.Net (>= 1.3.4)
+* [TwoFactorAuth.Net](https://github.com/RobThree/TwoFactorAuth.Net) (>= 1.3.4)
 * SkiaSharp (>= 1.68.0)
 * SkiaSharp.QrCode (>= 0.3.1)
 
