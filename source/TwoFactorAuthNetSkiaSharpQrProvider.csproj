@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Russ Painter</Authors>
+    <Company>Geeky Monkey Ltd.</Company>
+    <Description>A QR Code provider for TwoFactorAuth.Net that has no external API dependency. The image is generated on your own server. Also no dependency on System.Drawing to avoid installation issues with Linux.</Description>
+    <Copyright>2019 Geeky Monkey Ltd. (MIT License)</Copyright>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/GeekyMonkey/TwoFactorAuthNetSkiaSharpQrProvider/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/GeekyMonkey/TwoFactorAuthNetSkiaSharpQrProvider</PackageProjectUrl>
+    <PackageIconUrl>http://geekymonkey.com/favicon.ico</PackageIconUrl>
+    <RepositoryUrl>https://github.com/GeekyMonkey/TwoFactorAuthNetSkiaSharpQrProvider.git</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>TwoFactorAuth</PackageTags>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>GeekyMonkey.TwoFactorAuthNetSkiaSharpQrProvider</PackageId>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" Version="1.68.0" />
+    <PackageReference Include="SkiaSharp.QrCode" Version="0.3.1" />
+    <PackageReference Include="TwoFactorAuth.Net" Version="1.3.6" />
+  </ItemGroup>
+
+</Project>
