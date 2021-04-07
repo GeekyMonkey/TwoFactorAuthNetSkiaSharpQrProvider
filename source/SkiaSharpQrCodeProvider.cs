@@ -38,7 +38,7 @@ namespace TwoFactorAuthNetSkiaSharpQrProvider
                 using (SKSurface surface = SKSurface.Create(info))
                 {
                     SKCanvas canvas = surface.Canvas;
-                    canvas.Render(qr, info.Width, info.Height, new SKColor(255,255,255));
+                    canvas.Render(qr, info.Width, info.Height, new SKColor(255,255,255), new SKColor(0,0,0));
 
                     // Output to Stream -> Array
                     using (var image = surface.Snapshot())

@@ -18,11 +18,12 @@ The project is published to [NuGet](https://www.nuget.org/packages/GeekyMonkey.T
 
 * NET Standard
 * NET Core
+* NET 5.0
 
 ### Dependencies
-* [TwoFactorAuth.Net](https://github.com/RobThree/TwoFactorAuth.Net) (>= 1.3.4)
-* SkiaSharp (>= 1.68.0)
-* SkiaSharp.QrCode (>= 0.3.1)
+* [TwoFactorAuth.Net](https://github.com/RobThree/TwoFactorAuth.Net) (>= 1.4.0)
+* SkiaSharp (>= 2.80.2)
+* SkiaSharp.QrCode (>= 0.4.1)
 
 ---
 ## :heavy_check_mark: Instructions
